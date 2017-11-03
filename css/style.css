@@ -107,6 +107,38 @@ a.yello-text{
 	
     color: #d0ef0d;
 }
+.tabs .tab a:hover, .tabs .tab a.active {
+	background-color: #fbf800!important;
+	color: #050404 !important;
+}
+.tabs{
+
+color: white !important;
+}
+#tabs-swipe-demo {
+	background-color: #212121;
+}
+.tab {
+margin: 0px 5px 0px 7px !important;
+	border: yellow !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	color: white !important;
+}
+.container.container1 {
+    width: 100% !important;
+    max-width: none;
+}
+.search input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.search input[type=text]:focus {
+    width: 100%;
+}
 .material-icons.yellow600 { color: #FFFF00; }
 
 .input-field.white-text input:not([type]), 
@@ -135,6 +167,9 @@ margin: 90px 0 91px;
 .center-img {
    margin: 0 auto;
    display: block;
+}
+.search{
+display: none !important;
 }
 .primary {
 /*   background-color: white !important;*/
@@ -220,6 +255,19 @@ footer {
     color: white !important;
 
 }
+ul.description{
+
+    padding-left: 12px;
+    margin-right: -39px;
+    margin-left: -47px;
+}
+p.place{
+font-family: Helvetica;
+font-weight: initial;
+font-size: 15px;
+color: grey;
+}
+
 .tr{
 
 border-style: solid !important;
@@ -303,4 +351,5 @@ section .collapsible-body {
    .side-nav {
       background: transparent;
    }
+
    }
