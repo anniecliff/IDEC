@@ -20,8 +20,10 @@
       <nav class="gradients">
      
          <div class="nav-wrapper">
-            <a href="index.php" class="brand-logo right"><img src="Img/IDEC Logo.png" class="responsive-img"></a>
+         <div id="logo">   <a href="index.php" class="brand-logo right"><img src="Img/IDEC Logo.png" class="responsive-img"></a></div>
+  			 <div class="search  hide-on-large-only right"><i class="material-icons" style="color: #EDED19;">search</i><input type="text" name="search" placeholder="Search.."> </div>
             <a href="#" data-activates="mobile-menu" class="button-collapse left"><i class="material-icons white-text">menu</i></a>
+           
             <ul id="mobile-menu" class="side-nav fixed " style="background-color:#212121;" >
               <li>
            <div class="hide-on-med-and-down">
@@ -36,21 +38,31 @@
                <li class="no-padding">
                   <ul class="collapsible collapsible-accordion" >
                      <li>
-                      <a class="collapsible-header waves-effect white-text" href="my_profile.php">My Profile<hr></a>
-                       <!-- <div class="collapsible-body">
+                      <a class="collapsible-header waves-effect white-text" >My Profile<i class="hide-on-med-and-down material-icons right ">arrow_drop_down</i><hr></a>
+
+                        <div class="collapsible-body hide-on-med-and-down">
                            <ul>
-                              <li><a href="acc_details.php">Customer Details</a></li>
-                              <li><a href="change_password.php">Change Password</a></li>
+                             <li><a href="my_profile.php">  <i class="material-icons prefix yellow600"  style="color: #EDED19;margin: 0px 10px 0 6px;">account_circle</i>View Profile</a></li>
+                              <li><a href="account_details.php"><img src="Img/Icon-09.png"  width="15%" style="filter: hue-rotate(320deg)" class="responsive-img left">Edit Profile</a></li>
+                              <li><a href="change_password.php"><img src="Img/Icon-12.png" width="15%" style="filter: hue-rotate(320deg)" class="responsive-img left">Change Password</a></li>
                            </ul>
-                        </div>-->
+                        </div>
+
+                        <div class="collapsible-body hide-on-large-only">
+                           <ul>
+                             <li><a href="my_profile.php">  <i class="material-icons prefix yellow600"  style="color: #EDED19;margin: 0px 10px 0 6px;">account_circle</i>View Profile</a></li>
+                              
+                           </ul>
+                        </div>
+                        
                      </li>
                      <li>
-                        <a class="collapsible-header waves-effect white-text">IDEC Events<i class="material-icons right">arrow_drop_down</i><hr></a>
+                        <a class="collapsible-header waves-effect white-text">IDEC Events<i class="material-icons right collapsible-header">arrow_drop_down</i><hr></a>
                          <div class="collapsible-body">
                            <ul>
                         
-                              <li><a href="#">Upcoming Events</a></li>
-                              <li><a href="#">Previous Events</a></li>
+                              <li><a href="events.php">Upcoming Events</a></li>
+                              <li><a href="events.php">Previous Events</a></li>
                        
                            </ul>
                         </div>
@@ -59,7 +71,7 @@
                         <a class="collapsible-header waves-effect white-text" href="my_qrcode.php"> MY QR Code<hr></a>
                      </li>
            
-                     <li class="hide-on-large-only"><a class="collapsible-header waves-effect white-text" href="#"><i class="material-icons">exit_to_app</i>Sign Out<hr></a></li>
+                     <li><a class="collapsible-header waves-effect white-text" href="#"><img src="Img/Icon-10.png" width="20%" style="filter: hue-rotate(320deg)" class="responsive-img left">Sign Out</a></li>
                   </ul>
                </li>
             </ul>
@@ -69,45 +81,7 @@
    
 
   
-   <div class="hide-on-med-and-down">
-      <section>
-         <div class="">
-            <div class="row">
-               <div class="col l3">
-               </div>
-               <div class="col l3">
-                <a class="right" style="padding-right:50px;" href="account_details.php">
-                  <table>
-                     <tr>
-                        <td width="40%"><img src="Img/Icon-09.png" style="filter: hue-rotate(320deg)" class="responsive-img right"></td>
-                        <td>Edit Profile<br/></td>
-                     </tr>
-                  </table></a>
-               </div>
-               <div class="col l3">
-                <a class="right" style="padding-right:50px;" href="change_password.php">
-                  <table>
-                     <tr>
-                        <td width="40%"><img src="Img/Icon-12.png" style="filter: hue-rotate(320deg)" class="responsive-img right"></td>
-                        <td>Change password<br/><span class="primary-text"></td>
-                     </tr>
-                  </table></a>
-               </div>
-               <div class="col l3">
-                  <a class="right" style="padding-right:50px;" href="#">
-                   <table>
-                     <tr>
-                     
-                        <td width="40%"><img src="Img/Icon-10.png" style="filter: hue-rotate(320deg)" class="responsive-img right"></td>
-                        <td>Sign Out<br/><span class="primary-text"></td>
-                     </tr>
-                  </table></a>
-               </div>
-            </div>
-            <hr/>
-         </div>
-      </section>
-   </div>
+  
 
 
    
